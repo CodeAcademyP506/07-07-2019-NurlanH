@@ -4,15 +4,13 @@ var clrArr = [];
 var check = 0;
 
 function checkFinal() {
-//     added delay 
-    setTimeout(function(){
+
             document.body.innerHTML = ""
             var suprise = document.createElement("h1")
             suprise.innerText = "TƏBRİKLƏR SİZ BUTUN BAYRAQLARI UĞURLA TAPDINIZ"
             suprise.style.color = "green";
             suprise.style.textAlign = "center";
             document.body.append(suprise)
-        },300);
 }
 
 
